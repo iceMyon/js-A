@@ -1,6 +1,5 @@
 const bt = require('./bt')
 
-console.log("========先序遍历========")
 const pre_order = (root) => {
   if(!root) return
   console.log(root.val)
@@ -9,10 +8,11 @@ const pre_order = (root) => {
 }
 
 pre_order(bt)
+console.log("============================")
 
 
 
-console.log("========中序遍历========")
+
 
 
 const in_order = (root) => {
@@ -23,9 +23,12 @@ const in_order = (root) => {
 }
 
 in_order(bt)
+console.log("============================")
 
 
-console.log("========后序遍历========")
+
+
+
 
 const post_order = (root) => {
   if (!root) { return; }
@@ -35,3 +38,4 @@ const post_order = (root) => {
 };
 
 post_order(bt)
+console.log("============================")
