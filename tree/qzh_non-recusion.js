@@ -14,14 +14,16 @@ const in_order = (root) => {
       stack.push(p)
       p = p.left
     }
-    const n = stack.pop()  //弹出遍历完左子树的节点，输出
+    const n = stack.pop()  //执行代码块
     console.log(n.val)
     p = n.right
   }
 }
 in_order(bt)
-console.log("========先序遍历========")
 
+
+
+console.log("========先序遍历========")
 const pre_order = (root) => {
   if (!root) return
   const stack = [root]
@@ -33,11 +35,22 @@ const pre_order = (root) => {
     if (n.right) stack.push(n.right)
     if (n.left) stack.push(n.left)
   }
-
-
-
 }
 pre_order(bt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 console.log("=========后序遍历=======")
 

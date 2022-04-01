@@ -41,4 +41,7 @@ const bfs = (root) => {
     }
 };
 
+bfs(tree);
 
+var a
+console.log([a,b] = [a])

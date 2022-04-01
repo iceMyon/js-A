@@ -41,4 +41,7 @@ const bfs = (root) => {
     }
 };
 
+bfs(tree);
 
+
+console.log(typeof([1]))

@@ -41,4 +41,4 @@ const bfs = (root) => {
     }
 };
 
-
+bfs(tree);
